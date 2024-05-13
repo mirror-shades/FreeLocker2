@@ -1,0 +1,55 @@
+p {
+  color: black;
+  text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p,
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(13, 2, 53);
+}
+label {
+  font-family: "Courier New", Courier, monospace;
+}
+a {
+  color: rgb(13, 2, 53);
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.above {
+  display: flex;
+  position: absolute;
+  top: 100;
+  left: 0;
+  z-index: 5;
+}
+
+.below {
+  display: flex;
+  position: absolute;
+  top: 100;
+  left: 0;
+  z-index: 1;
+}
+
+.metamaskButton {
+  width: 75px;
+  height: auto;
+}
+
+.invisibleButton {
+  background: transparent; /* Ensure the button is invisible */
+  border: none; /* No border */
+  cursor: pointer; /* Cursor that indicates interactive element */
+  padding: 0; /* Remove padding */
+  outline: none; /* No focus outline */
+}
